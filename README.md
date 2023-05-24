@@ -32,7 +32,7 @@ Exemplo de dados que a _**api**_ retornou:
 }
 ```
 
-<a href"https://pokedex-renansouzasm.netlify.app/" target="_blank">Veja o projeto rodando</a>
+<a href="https://pokedex-renansouzasm.netlify.app/" target="_blank">Veja o projeto rodando</a>
 
 <table>
     <tr>

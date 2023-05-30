@@ -9,6 +9,8 @@
 
 body {
     height: 100vh;
+    min-width: 280px;
+    min-height: 600px;
     background-color: #edf2fb;
     color: #202026;
 
@@ -120,3 +122,17 @@ body {
 .flying { background-color: #F5F5F5; }
 .fighting { background-color: #E6E0D4; }
 .normal { background-color: #F5F5F5; }
+
+@media screen and (max-width: 1000px) {
+    .pokedex {
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pokedex {
+        padding: 4%;
+        height: 100%;
+        width: 100%;
+    }
+}

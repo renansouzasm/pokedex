@@ -36,7 +36,7 @@ Exemplo de dados que a _**api**_ retornou:
 
 <table>
     <tr>
-        <th>Preview | <a href="https://github.com/RenanSouz/Javascript">other javascript projects</a></th>
+        <th><a href="https://github.com/RenanSouz/Javascript">Other javascript projects</a> | <a href="https://pokedex-renansouzasm.netlify.app/">Deploy</a></th>
     </tr>
     <tr>
         <td><img width="600px" src="https://user-images.githubusercontent.com/101893896/226346244-14b0297e-c26b-4586-8b9a-3de9741dffec.gif" alt="preview"/></td>

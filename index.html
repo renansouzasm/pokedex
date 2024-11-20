@@ -1,40 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/pokeball.png" type="image/x-icon" />
+    <link rel="stylesheet" href="global.css" />
 
-    <script src="https://kit.fontawesome.com/3ebfe68ff8.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
-    <link rel="shortcut icon" href="icons/pokebola.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Pokedex</title>
-</head>
+    <title>Pokédex</title>
+  </head>
 
-<body>
-    <section class="pokedex">
-        <div class="nav">
-            <button class="leftArrow"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+  <body class="center">
+    <article class="pokemonCard">
+      <div class="cardNav">
+        <button id="arrowPrev" class="center">
+          <i class="ph ph-arrow-left"></i>
+        </button>
 
-            <hgroup class="nome">
-                <h1 id="name">Not found</h1>
-                <p id="number">0000</p>
-            </hgroup>
+        <hgroup class="hgroup">
+          <h1 id="pokemonName">Bullbasaur</h1>
+          <h2 id="pokemonId">0001</h2>
+        </hgroup>
 
-            <button class="rightArrow"><i class="fa-solid fa-arrow-right fa-lg"></i></button>
+        <button id="arrowNext" class="center">
+          <i class="ph ph-arrow-right"></i>
+        </button>
+      </div>
+
+      <div class="pokemonWrapp grass">
+        <img
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+          alt="pokemonImage"
+          id="pokemonImage"
+        />
+      </div>
+
+      <div class="pokemonDetails">
+        <div class="pokemonTypes">
+          <p>Types</p>
+          <p>Grass, Poison</p>
         </div>
-
-        <div class="element normal">
-            <img src="" alt="" id="img">
+        <div class="pokemonAbilities">
+          <p>Abilities</p>
+          <p>Overgrow, Chlorophyll</p>
         </div>
-
-        <input id="search" type="text" placeholder="Pokemon: Name or ID">
-
-        <div class="content"></div>
-    </section>
-
-    <script src="main.js"></script>
-</body>
+      </div>
+    </article>
+  </body>
 </html>
